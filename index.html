@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>BuildCraft | Construction & Architecture</title>
+  <meta name="description" content="Professional residential construction, commercial building, renovation and project planning services. Contact our team to discuss your project.">
+  <meta name="theme-color" content="#10243a">
+
+  <meta property="og:title" content="BuildCraft | Construction & Architecture">
+  <meta property="og:description" content="Building spaces designed to last. Explore our construction services and request a project consultation.">
+  <meta property="og:type" content="website">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="config.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="header" id="top">
+    <div class="container nav-wrap">
+      <a class="logo" href="#home" aria-label="BuildCraft home">
+        <span class="logo-mark">B</span>
+        <span>BUILD<span class="orange">CRAFT</span><small>CONSTRUCTION & DESIGN</small></span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle"
+        aria-label="Open navigation" aria-expanded="false"
+        aria-controls="navigation">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="navigation" id="navigation" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+        <a href="#contact" class="btn btn-small">Get a Quote ↗</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+
+      <div class="container hero-content">
+        <span class="eyebrow light">BUILDING WITH PURPOSE</span>
+        <h1>Built on Trust.<br>Designed for <span>Life.</span></h1>
+        <p>
+          Thoughtful construction, practical design, and quality-focused
+          execution for residential and commercial projects.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#contact" class="btn">Discuss Your Project ↗</a>
+          <a href="#projects" class="btn btn-outline">Explore Projects</a>
+        </div>
+
+        <div class="hero-note">
+          <span class="note-line"></span>
+          <span>From the first plan to the final detail.</span>
+        </div>
+      </div>
+
+      <div class="hero-index">CONSTRUCTION · DESIGN · DELIVERY</div>
+    </section>
+
+    <section class="trust-strip">
+      <div class="container trust-inner">
+        <div><span class="trust-symbol">01</span><span>Thoughtful Planning</span></div>
+        <div><span class="trust-symbol">02</span><span>Quality-Focused Work</span></div>
+        <div><span class="trust-symbol">03</span><span>Clear Communication</span></div>
+        <div><span class="trust-symbol">04</span><span>Client-First Approach</span></div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <div class="about-image">
+          <img
+            src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1000&q=85"
+            alt="Modern residential architecture with a spacious outdoor area"
+            loading="lazy">
+          <div class="image-caption">
+            <span>DESIGN THAT SERVES A PURPOSE</span>
+          </div>
+        </div>
+
+        <div class="about-content">
+          <span class="eyebrow">ABOUT OUR APPROACH</span>
+          <h2>Good buildings begin with <span>good thinking.</span></h2>
+          <p>
+            Every construction project starts with a vision. Our approach
+            brings planning, practical design, and careful execution together
+            to help turn that vision into a functional space.
+          </p>
+          <p>
+            From new homes to commercial spaces and renovations, we believe
+            clear communication and attention to detail matter at every stage.
+          </p>
+
+          <div class="value-list">
+            <div><span>✓</span><div><strong>Purposeful planning</strong><p>Understand the brief before work begins.</p></div></div>
+            <div><span>✓</span><div><strong>Transparent communication</strong><p>Keep decisions and project updates clear.</p></div></div>
+            <div><span>✓</span><div><strong>Attention to detail</strong><p>Focus on the details that make a difference.</p></div></div>
+          </div>
+
+          <a href="#contact" class="text-link">Let's discuss your plans <span>↗</span></a>
+          <p class="sample-note">Sample company copy. Replace with the client's actual company story before launch.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">WHAT WE DO</span>
+            <h2>Solutions built around <span>your needs.</span></h2>
+          </div>
+          <p>Explore services that support your project from early planning through construction and finishing.</p>
+        </div>
+
+        <div class="service-grid" id="serviceGrid"></div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">SELECTED WORK</span>
+            <h2>Spaces with a <span>clear purpose.</span></h2>
+          </div>
+          <p>Example project concepts for layout demonstration. Replace with real, approved project photographs and details.</p>
+        </div>
+
+        <div class="filter-bar" id="projectFilters" aria-label="Filter projects">
+          <button class="filter-btn active" data-filter="all" aria-pressed="true">All Projects</button>
+          <button class="filter-btn" data-filter="residential" aria-pressed="false">Residential</button>
+          <button class="filter-btn" data-filter="commercial" aria-pressed="false">Commercial</button>
+          <button class="filter-btn" data-filter="renovation" aria-pressed="false">Renovation</button>
+        </div>
+
+        <div class="project-grid" id="projectGrid"></div>
+        <p class="sample-note">Portfolio demonstration only. These images do not establish that BuildCraft completed the pictured projects.</p>
+      </div>
+    </section>
+
+    <section class="why-section">
+      <div class="container why-grid">
+        <div>
+          <span class="eyebrow light">WHY OUR APPROACH MATTERS</span>
+          <h2>Construction is more than bricks and concrete.</h2>
+          <p>
+            It's about making informed decisions, communicating clearly,
+            and managing the details that shape the final result.
+          </p>
+          <a href="#contact" class="btn">Start a Conversation ↗</a>
+        </div>
+
+        <div class="why-list">
+          <article><span>01</span><div><h3>Clear project planning</h3><p>Discuss requirements, priorities, scope, and next steps early.</p></div></article>
+          <article><span>02</span><div><h3>Open communication</h3><p>Keep decisions, questions, and progress updates organized.</p></div></article>
+          <article><span>03</span><div><h3>Quality-conscious execution</h3><p>Pay attention to materials, workmanship, and project requirements.</p></div></article>
+          <article><span>04</span><div><h3>Practical coordination</h3><p>Coordinate project activities around agreed plans and constraints.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="process">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">HOW IT WORKS</span>
+            <h2>A clearer path from <span>plan to build.</span></h2>
+          </div>
+        </div>
+
+        <div class="process-grid">
+          <article><span>01</span><h3>Consultation</h3><p>Share your ideas, needs, and project goals.</p></article>
+          <article><span>02</span><h3>Site Assessment</h3><p>Review the site, requirements, and practical constraints.</p></article>
+          <article><span>03</span><h3>Proposal & Planning</h3><p>Discuss scope, costs, design, and the proposed schedule.</p></article>
+          <article><span>04</span><h3>Construction</h3><p>Coordinate execution and provide agreed progress updates.</p></article>
+          <article><span>05</span><h3>Final Handover</h3><p>Review completed work and address outstanding items.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonial-section" id="testimonials">
+      <div class="container testimonial-inner">
+        <span class="eyebrow light">CLIENT FEEDBACK</span>
+        <h2>Every project deserves <span>clear communication.</span></h2>
+        <div class="testimonial-card">
+          <span class="quote-mark">“</span>
+          <p>Real client testimonials will appear here after they are provided and approved for publication.</p>
+          <div class="testimonial-author">
+            <span class="author-avatar">C</span>
+            <div><strong>Client testimonial placeholder</strong><small>Replace before publishing</small></div>
+          </div>
+        </div>
+        <p class="sample-note light-note">This is not a genuine client review.</p>
+      </div>
+    </section>
+
+    <section class="cta-banner">
+      <div class="container cta-inner">
+        <div>
+          <span class="eyebrow light">YOUR NEXT PROJECT STARTS HERE</span>
+          <h2>Let's build something <span>worth building.</span></h2>
+          <p>Tell us what you have in mind. We'll help you understand the next steps.</p>
+        </div>
+        <a href="#contact" class="btn">Request a Consultation ↗</a>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <span class="eyebrow">GET IN TOUCH</span>
+          <h2>Tell us about <span>your project.</span></h2>
+          <p>Share a few details about your construction or renovation plans.</p>
+
+          <div class="contact-detail">
+            <span class="detail-icon">☎</span>
+            <div><small>PHONE</small><a id="phoneLink" href="#">Configure company phone</a></div>
+          </div>
+          <div class="contact-detail">
+            <span class="detail-icon">✉</span>
+            <div><small>EMAIL</small><a id="emailLink" href="#">Configure company email</a></div>
+          </div>
+          <div class="contact-detail">
+            <span class="detail-icon">⌖</span>
+            <div><small>LOCATION</small><p id="addressText">Business address to be added</p></div>
+          </div>
+
+          <a class="btn whatsapp-btn" id="whatsappLink" href="#" target="_blank" rel="noopener noreferrer">Chat on WhatsApp ↗</a>
+        </div>
+
+        <form class="contact-form" id="contactForm" novalidate>
+          <h3>Request a project consultation</h3>
+          <p>Fields marked * are required.</p>
+
+          <div class="form-grid">
+            <label>Full name *
+              <input name="name" autocomplete="name" required minlength="2" placeholder="Your name">
+            </label>
+
+            <label>Phone number *
+              <input name="phone" type="tel" autocomplete="tel" required pattern="[0-9+() .-]{8,20}" placeholder="Your phone number">
+            </label>
+
+            <label>Email address *
+              <input name="email" type="email" autocomplete="email" required placeholder="you@example.com">
+            </label>
+
+            <label>Service required *
+              <select name="service" required>
+                <option value="">Select a service</option>
+                <option>Residential Construction</option>
+                <option>Commercial Construction</option>
+                <option>Renovation & Remodeling</option>
+                <option>Architectural Planning</option>
+                <option>Interior & Exterior Finishing</option>
+                <option>Project Management</option>
+              </select>
+            </label>
+
+            <label>Project location *
+              <input name="location" required placeholder="City or area">
+            </label>
+
+            <label>Estimated budget
+              <select name="budget">
+                <option value="">Select budget range</option>
+                <option>Under ₹5 lakh</option>
+                <option>₹5–15 lakh</option>
+                <option>₹15–30 lakh</option>
+                <option>₹30 lakh–₹1 crore</option>
+                <option>Above ₹1 crore</option>
+                <option>Not decided yet</option>
+              </select>
+            </label>
+
+            <label class="full-width">Project details *
+              <textarea name="message" rows="4" required minlength="10" placeholder="Describe your project, requirements, and expected timeline"></textarea>
+            </label>
+          </div>
+
+          <label class="privacy-check">
+            <input type="checkbox" name="consent" required>
+            <span>I agree that the company may use these details to respond to my enquiry.</span>
+          </label>
+
+          <button type="submit" class="btn submit-btn">Prepare Enquiry ↗</button>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+          <small class="privacy-note">Do not include passwords, payment information, or other sensitive personal data. This form needs a configured endpoint to submit enquiries automatically.</small>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="logo footer-logo" href="#home">
+          <span class="logo-mark">B</span>
+          <span>BUILD<span class="orange">CRAFT</span><small>CONSTRUCTION & DESIGN</small></span>
+        </a>
+        <p>Thoughtful planning. Practical construction. Spaces designed around people.</p>
+      </div>
+
+      <div><h3>Explore</h3><a href="#about">About us</a><a href="#services">Services</a><a href="#projects">Projects</a><a href="#process">Our process</a></div>
+      <div><h3>Services</h3><a href="#services">Residential</a><a href="#services">Commercial</a><a href="#services">Renovation</a><a href="#contact">Consultation</a></div>
+      <div><h3>Contact</h3><a id="footerPhone" href="#">Phone</a><a id="footerEmail" href="#">Email</a><a id="footerWhatsApp" href="#" target="_blank" rel="noopener noreferrer">WhatsApp</a></div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© <span id="year"></span> <span id="footerCompany">BuildCraft</span>. All rights reserved.</p>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <a class="floating-whatsapp" id="floatingWhatsApp" href="#" target="_blank" rel="noopener noreferrer" aria-label="Contact us on WhatsApp">WA</a>
+  <button class="back-top" id="backTop" aria-label="Back to top">↑</button>
+
+  <dialog class="project-dialog" id="projectDialog" aria-labelledby="dialogTitle">
+    <button class="dialog-close" id="dialogClose" aria-label="Close project details">×</button>
+    <img id="dialogImage" src="" alt="">
+    <div class="dialog-content">
+      <span class="eyebrow" id="dialogCategory"></span>
+      <h2 id="dialogTitle"></h2>
+      <p id="dialogDescription"></p>
+      <p id="dialogLocation"></p>
+      <div class="dialog-controls">
+        <button id="previousProject" class="btn btn-dark">← Previous</button>
+        <button id="nextProject" class="btn btn-dark">Next →</button>
+      </div>
+    </div>
+  </dialog>
+</body>
+</html>
